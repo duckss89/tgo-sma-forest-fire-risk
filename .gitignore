@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.log
+server/data/history.json
+server/data/preview_fri.png
+.DS_Store

@@ -1,0 +1,25 @@
+{
+  "name": "fri-lamdong-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API + lõi thuật toán lai ghép TGO-SMA cho hệ thống đánh giá nguy cơ cháy rừng Lâm Đồng",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build:bands": "node scripts/build-fri-bands.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "geotiff": "^2.1.3",
+    "proj4": "^2.11.0"
+  }
+}
